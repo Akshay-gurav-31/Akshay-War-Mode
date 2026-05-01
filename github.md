@@ -1,4 +1,8 @@
-# 🐙 Git & GitHub Basics
+# 📚 Git & GitHub Learning Notes
+
+---
+
+# 📅 Day 1 — 🐙 Git & GitHub Basics
 
 ## 1. What is GitHub?
 
@@ -132,3 +136,84 @@ Using branches and pull requests.
 1. Git → Tracks changes
 2. GitHub → Stores code online
 3. Repository → Your project workspace
+
+---
+
+# 📅 Day 2 — 🔧 Git Commands (Hands-on)
+
+## 🔧 Commands Learned
+
+### 1. Initialize Repository
+
+```bash
+git init
+```
+
+Start a new Git repository.
+
+---
+
+### 2. Check Status
+
+```bash
+git status
+```
+
+Check changed, staged, and untracked files.
+
+---
+
+### 3. Add Files (Staging Area)
+
+```bash
+git add file.txt
+git add .
+```
+
+Add files to staging area.
+
+---
+
+### 4. Commit Changes
+
+```bash
+git commit -m "your message"
+```
+
+Save staged changes with a message.
+
+---
+
+### 5. Unstage Files
+
+```bash
+git reset
+```
+
+Remove files from staging area.
+
+---
+
+## 🔄 Workflow
+
+```text
+Write Code → git add → git commit
+```
+
+---
+
+## 🧠 Key Understanding
+
+* Staging Area = selection before commit
+* Only added files get committed
+* You can commit files separately or together
+
+---
+
+## 📌 Final Summary
+
+* `git add` → select files
+* `git commit` → save changes
+* Git tracks your project step-by-step
+
+---
